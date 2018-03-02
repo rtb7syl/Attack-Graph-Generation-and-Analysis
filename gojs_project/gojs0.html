@@ -1,0 +1,33 @@
+<!DOCTYPE html>  <!-- HTML5 document type -->
+<html>
+<head>
+  <!-- use go-debug.js when developing and go.js when deploying -->
+  <script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gojs/1.8.6/go-debug.js"></script>
+</head>
+
+<body>
+	<div id="sample">
+  <div style="width:100%; white-space:nowrap;">
+    <span style="display: inline-block; vertical-align: top; width:150px">
+      <div id="myPaletteDiv" style="border: solid 1px black; height: 720px"></div>
+    </span>
+
+    <span style="display: inline-block; vertical-align: top; width:100%">
+      <div id="myDiagramDiv" style="border: solid 1px black; height: 720px"></div>
+    </span>
+  </div>
+    <p><bold>This diagram represents The 
+    Network Diagram of a Office Network on a Single Subnet.</bold></p>
+    <p>Mouse-over a Node to view its ports. Drag from these ports to create new Links. Selecting Links allows you to re-shape and re-link them. Selecting a Node and then clicking its TextBlock will allow you to edit text (except on the Start and End Nodes).</p>
+    
+    <button onclick="makeSVG()">Render as SVG</button>
+    <button onclick="save()">Save</button>
+    <div id="SVGArea"></div>
+    <!--<form action ="/save" method="POST">
+      <button>Save to DB</button>
+    </form>-->
+    <script type="text/javascript" src = "js/gojstest1.js"></script>
+</body>
+
+</html>
