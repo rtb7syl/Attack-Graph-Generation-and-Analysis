@@ -1,7 +1,13 @@
-Attack Graph Generation and Analysis.
+# Attack Graph Generation and Analysis.
 
-A first run the mongo daemon in the background.
-with command $mongod
+## A web based interface for creating network diagrams and visualizing Attack-Graphs
 
-Then cd into gojs_project.
-With mongodaemon running in the background, start the server with $nodemon app.js.
+> Tools,and libraries used for this project :
+  
+  goJS javascript client side library for creating diagrams 
+  
+  NodeJS,Express ,for creating the server-side of this application
+  
+  MongoDB as Database and MongooseJS ORM for interacting with Node, to make the data persistent,and saving different Network Models built
+  
+  
