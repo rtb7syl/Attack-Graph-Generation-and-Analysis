@@ -4,10 +4,10 @@
 
 > Tools,and libraries used for this project :
   
-  goJS javascript client side library for creating diagrams 
-  
-  NodeJS,Express ,for creating the server-side of this application
-  
-  MongoDB as Database and MongooseJS ORM for interacting with Node, to make the data persistent,and saving different Network Models built
+    * goJS javascript client side library for creating diagrams 
+
+    * NodeJS,Express ,for creating the server-side of this application
+
+    * MongoDB as Database and MongooseJS ORM for interacting with Node, to make the data persistent,and saving different Network Models  built
   
   
