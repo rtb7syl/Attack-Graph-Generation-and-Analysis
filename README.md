@@ -11,5 +11,5 @@ A web based interface for creating network diagrams and visualizing Attack-Graph
  * MongoDB as Database and MongooseJS ORM for interacting with Node, to make the data persistent,and saving different Network Models  built
  
  
- This was a small internship project. So it's probably not much well documented. I'll update it with much more features and document it,when I manage to get some more time at hand.
+ This was a small internship project. So it's not much well documented. I'll update it with much more features and document it,when I manage to get some more time at hand.
   
